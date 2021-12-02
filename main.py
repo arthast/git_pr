@@ -1,3 +1,6 @@
+def print_nehi():
+    print(range(10))
+
 def print_hi(name):
     print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
     print('Hallo')
@@ -6,3 +9,4 @@ def print_hi(name):
 
 if __name__ == '__main__':
     print_hi('PyCharm')
+    print_nehi()
